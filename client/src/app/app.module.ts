@@ -5,6 +5,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ToastrModule } from 'ngx-toastr';
 import { AppRoutingModule } from './app-routing.module';
 import { TabsModule } from 'ngx-bootstrap/tabs';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
@@ -43,7 +44,8 @@ import { JwtInterceptor } from './_intercepter/jwt.interceptor';
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-right'
     }),
-    TabsModule.forRoot()
+    TabsModule.forRoot(),
+    NgxGalleryModule
   ],
   providers: [
     AccountService,
