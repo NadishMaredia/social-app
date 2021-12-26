@@ -6,12 +6,13 @@ using API.DTOs;
 using API.Entities;
 using API.Interfaces;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-
+    [Authorize]
     public class UsersController : BaseApiController
     {
         private readonly IUserRepository _userRepository;
@@ -35,7 +36,7 @@ namespace API.Controllers
         [HttpGet("{username}")]
         public async Task<ActionResult<MemberDto>> GetUsers(string username)
         {
-            var users = await _userRepository.GetUserByUsernameAsync(username);
+            var users = await _userRepository.GetUserByUsernameAsync(username.ToLower());
 
             return _mapper.Map<MemberDto>(users);
         }
