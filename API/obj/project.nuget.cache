@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OOU0hgIcZXmXhTADcP6aNUhJnU9Z5OzXZ+WPnIQpyVVGlfjT56synN+woEV6gotda7sqmA1E5+i92f66fElH2Q==",
+  "dgSpecHash": "vQkzEE9kGhMyr2nR/r4r6JmBGXYhxTcTgRm2iZRooJ/RZIAlSTAzrG5dw/rfTENUbxKgS4oBdDwNjjWFp2h20A==",
   "success": true,
   "projectFilePath": "D:\\Udemy\\social-app\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nadish\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Nadish\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Nadish\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Nadish\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
     "C:\\Users\\Nadish\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -46,6 +48,7 @@
     "C:\\Users\\Nadish\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "C:\\Users\\Nadish\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.0\\system.identitymodel.tokens.jwt.6.15.0.nupkg.sha512",
     "C:\\Users\\Nadish\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Nadish\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Nadish\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
